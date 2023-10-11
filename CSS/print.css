@@ -1,0 +1,86 @@
+@media print {
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: rgb(255, 255, 255);
+    }
+
+    header{
+        display: none;
+    }
+    
+    .bottom{
+        display: none;
+    }
+
+    .top{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .profile-link{
+        min-width: 150px;
+        min-height: 400px;
+    }
+
+    .profile-pic{
+        min-height: 450px;
+        min-width: 660px;
+    }
+
+    .myname{
+        padding: 0;
+        margin: 20px;
+        text-align: center;
+    }
+
+    .button{
+        display: none;
+    }
+
+    .project{
+        margin-top: 250px;
+        text-align: center;
+    }
+
+    .card{
+        min-width: 300px;
+        min-height: 400px;
+    }
+
+    .top-headline{
+        margin: 30px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .contactme{
+        margin: 30px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .contactlogo{
+        background-color: antiquewhite;
+    }
+
+    .map{
+        display: none;
+    }
+
+    .portfoliohead{
+        margin: 30px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .pf-article{
+        gap:25rem;
+    }
+
+    .head{
+        margin:30px
+    }
+}

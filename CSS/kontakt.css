@@ -1,0 +1,298 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --primary-bg-color:rgb(241, 236, 187);
+  --primary-text-clr: rgb(88, 78, 57);
+  --hf-clr: rgb(73, 92, 40);
+  --nav-tog-clr: rgb(1, 49, 1);
+  --button-clr: rgb(187, 162, 128);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--primary-bg-color);
+}
+
+a {
+  color: white;
+}
+
+.nav-bar {
+  background-color: var(--hf-clr);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  width: 100%;
+}
+
+.nav-bar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: var(--hf-clr);
+}
+
+.nav-bar ul a {
+  display: block;
+  margin: 13px;
+  border-right: 1px var(--hf-clr);
+  text-decoration: none;
+}
+
+.nav-bar ul a:hover {
+  color: bisque;
+}
+
+.nav-bar ul a:active{
+  color: bisque;
+}
+
+.nav-bar ul .active{
+  color: rgb(133, 91, 62);
+}
+
+.nav-bar .logo {
+  float: left;
+  display: block;
+  font-size: 2em;
+  font-family: "Gloock", serif;
+  padding: 30px 5px 30px 15px;
+  text-decoration: none;
+}
+
+.nav-bar .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+.nav-bar .menu-icon {
+  padding: 28px 20px;
+  position: relative;
+  float: right;
+  cursor: pointer;
+}
+
+.nav-bar .menu-icon .nav-icon {
+  background: var(--nav-tog-clr);
+  display: block;
+  height: 2px;
+  width: 18px;
+  position: relative;
+  transition: background 0.2s ease-out;
+}
+
+.nav-bar .menu-icon .nav-icon:before {
+  background: var(--nav-tog-clr);
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  top: 5px;
+}
+
+.nav-bar .menu-icon .nav-icon:after {
+  background: var(--nav-tog-clr);
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  top: -5px;
+}
+
+.nav-bar .menu-btn {
+  display: none;
+}
+
+.nav-bar .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.nav-bar .menu-btn:checked ~ .menu-icon .nav-icon{
+  background-color: transparent;
+}
+
+.nav-bar .menu-btn:checked ~ .menu-icon .nav-icon:before{
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+.nav-bar .menu-btn:checked ~ .menu-icon .nav-icon:after{
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.contactpage{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  color:var(--primary-text-clr);
+}
+
+.contactform{
+  display: flex;
+  flex-flow: column wrap;
+  padding-top: 5vh;
+  width: 80vw;
+}
+
+.contactme{
+  padding-top: 9rem;
+  color:var(--primary-text-clr);
+  text-align: center;
+  font-family: "Gloock", serif;
+}
+
+.sub{
+  font-family: "Gloock", serif;
+}
+
+.mapcontainer{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+  gap:1rem;
+}
+
+.map{
+  height: 50vh;
+  width: 80vw;
+  border-radius: 10px;
+}
+
+.contactlogo{
+  height: 2rem;
+}
+
+p{
+  display: inline-block;
+  margin-left: 0.7rem;
+  font-size: 1.1rem;
+}
+
+#writehere{
+  border:none;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  height: 5vh;
+}
+
+#writehere2{
+  border: none;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  height: 5vh;
+}
+
+#subject{
+  border:none;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+#emaillabel{
+  font-size: 1.3rem;
+  color: var(--primary-text-clr);
+}
+
+#namelabel{
+  font-size: 1.3rem;
+  color: var(--primary-text-clr);
+}
+
+#subjectlabel{
+  font-size: 1.3rem;
+  color: var(--primary-text-clr);
+}
+
+#submitbutton{
+  border: 2px var(--button-clr);
+  background-color: var(--button-clr);
+  width: 14rem;
+  align-self: center;
+  padding: 1rem 1rem;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  color: var(--primary-text-clr);
+  font-family: "Poppins", sans-serif;
+}
+
+#submitbutton:hover{
+  background-color: rgb(125, 112, 96);
+}
+
+.bottom{
+  background-color: var(--hf-clr);
+  height: 8vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  font-family: "Gloock", serif;
+}
+
+.footer-logo{
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+#github-icon{
+  height: 2rem;
+}
+
+#linkedin-icon{
+  height: 2rem;
+}
+
+#email-icon{
+  height: 2rem;
+}
+
+@media (min-width: 768px) {
+  .nav-bar li{
+    float: left;
+  }
+  .nav-bar li a{
+    padding: 20px 30px;
+  }
+  .nav-bar .menu{
+    clear:none;
+    float:right;
+    max-height: none;
+  }
+  .nav-bar .menu-icon{
+    display: none;
+  }
+
+  .map{
+    max-width: 35vw;
+    max-height: 50vh;
+  }
+
+  .contactpage{
+    justify-content: space-evenly;
+  }
+
+  .contactme{
+    text-align: left;
+    margin-left: 2rem;
+  }
+
+  .contactform{
+    width: 35vw;
+  }
+}
