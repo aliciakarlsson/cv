@@ -155,13 +155,13 @@ a {
 
 .profile-pic{
   flex:1;
-  background-image: url('../bilder/profilbild1.jpeg');
+  background-image: url('../Bilder/profilbild1.jpeg');
   background-size: cover;
 }
 
 .profile-link{ 
     flex: 1;
-    background-image: url('../bilder/skog.jpg');
+    background-image: url('../Bilder/skog.jpg');
     background-size: cover;
     background-position: center;
     background-color: var(--primary-text-clr);
@@ -213,24 +213,24 @@ a {
 }
 
 .card-one{
-  background-image: url('../bilder/projekt1.png');
+  background-image: url('../Bilder/projekt1.png');
   background-size: cover;
   background-position: center;
 }
 
 .card-two{
-  background-image: url('../bilder/projekt2.png');
+  background-image: url('../Bilder/projekt2.png');
   background-size: cover;
 }
 
 .card-three{
-  background-image: url('../bilder/projekt3.png');
+  background-image: url('../Bilder/projekt3.png');
   background-size: cover;
   background-position: center;
 }
 
 .card-four{
-  background-image: url('../bilder/projekt4.png');
+  background-image: url('../Bilder/projekt4.png');
   background-size: cover;
   background-position: center;
 }
