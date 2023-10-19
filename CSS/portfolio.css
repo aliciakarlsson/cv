@@ -208,6 +208,9 @@ a {
   top: 10px;
   right: 10px;
   cursor: pointer;
+  color: var(--primary-text-clr);
+  font-weight: 800;
+  text-decoration: none;
 }
 
 
