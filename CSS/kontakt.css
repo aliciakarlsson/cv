@@ -5,11 +5,11 @@
 }
 
 :root{
-  --primary-bg-color:rgb(241, 236, 187);
-  --primary-text-clr: rgb(88, 78, 57);
-  --hf-clr: rgb(73, 92, 40);
-  --nav-tog-clr: rgb(1, 49, 1);
-  --button-clr: rgb(187, 162, 128);
+  --primary-bg-color:rgb(255, 251, 251);
+  --primary-text-clr: rgb(122, 93, 61);
+  --hf-clr: rgb(202, 190, 147);
+  --nav-tog-clr: rgb(255, 255, 255);
+  --button-clr: rgb(203, 183, 124);
 }
 
 body {
@@ -186,6 +186,7 @@ p{
   margin-bottom: 1rem;
   border-radius: 10px;
   height: 5vh;
+  background-color: rgb(202, 190, 147);
 }
 
 #writehere2{
@@ -193,12 +194,14 @@ p{
   margin-bottom: 1rem;
   border-radius: 10px;
   height: 5vh;
+  background-color: rgb(202, 190, 147);
 }
 
 #subject{
   border:none;
   margin-bottom: 1rem;
   border-radius: 10px;
+  background-color: rgb(202, 190, 147);
 }
 
 #emaillabel{
