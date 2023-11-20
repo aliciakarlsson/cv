@@ -1,8 +1,7 @@
-
 // Dark theme
 const toggle = document.getElementById("theme-toggle");
 const sunIcon = document.getElementById("sunicon");
-const moonIcon = document.getElementById('moonicon');
+const moonIcon = document.getElementById("moonicon");
 
 const storedTheme =
   localStorage.getItem("theme") ||
@@ -10,7 +9,7 @@ const storedTheme =
     ? "dark"
     : "light");
 
- if (storedTheme) {
+if (storedTheme) {
   document.documentElement.setAttribute("data-theme", storedTheme);
   if (storedTheme === "dark") {
     sunIcon.style.display = "none"; // Dölj solen i dark mode

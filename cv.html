@@ -16,6 +16,10 @@
     <header>
       <nav class="nav-bar">
         <a class="logo" href="index.html">Alicia K</a>
+        <button id="theme-toggle" class="btn btn-link btn-sm ml-2 small" type="button">
+        <span id="moonicon" class="d-block-light d-none">&#9790;</span>
+        <span id="sunicon" class="d-block-dark d-none">&#9788;</span>
+        </button>
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"
           ><span class="nav-icon"></span
@@ -32,8 +36,34 @@
       </nav>
     </header>
     <main>
+
+      <!-- Containers för inhämtade datan i json-->
       <h1 class="top-headline">Mina erfarenheter</h1>
-      <article class="cv-article">
+      <section class="section">
+      <div id="cv-container" >
+        <h2 id="cv-name">Om mig</h2>
+        <p id="about-me"></p>
+        <h3 id="schools">Utbildningar</h3>
+        <p id="education"></p>
+        <div class="pic"></div>
+        
+      </div>
+      <div id="work-places">
+        <h4 id="work-experience">Arbetserfarenheter</h4>
+          <h6 id="place1"></h6>
+          <p id="task1"></p>
+          <h6 id="place2"></h6>
+          <p id="task2"></p>
+          <h6 id="place3"></h6>
+          <p id="task3"></p>
+          <h6 id="place4"></h6>
+          <p id="task4"></p>
+        
+      </div>
+      </section>
+      <!--  GAMMAL KOD FÖR CV
+        
+        <article class="cv-article">
         <section class="container character"><h2 class="headline">Egenskaper</h2>
         <p class="text textsc">Min inställning präglas av positivitet och en förmåga att snabbt ta till mig ny kunskap. Jag är välorganiserad och utför mitt arbete med noggrannhet och struktur. Att planera och utforska kreativa lösningar är något jag trivs med. Dessutom är jag lika bekväm med att arbeta självständigt som i grupp, och jag värdesätter samarbete som en nyckel till framgång.</p></section>
         <section class="container school"><h3 class="headline">Utbildningar</h3>
@@ -49,7 +79,7 @@
           <p class="text text4">Här var jag blackjackcroupier på Skellefteås krogar. Jag lärde mig hantera stressiga situationer, ta eget ansvar då man alltid jobbade själv, och hantera kunder vare sig de var glada eller arga.</p>
           <h5 class="sub-headline">Biltema Sweden AB, Skellefteå</h5>
           <p class="text text5 textlast">Här började jag som butiksmedarbetare, där jag stod mest i kundtjänst och hjälpte kunder, samt i bistron där jag serverade mat. Men i hösten -19 fick jag tjänsten som avdelningsansvarig där jag sköter och tar hand om min avdelning, ser till att jag har rätt mängd varor i hyllorna,  samt ser till att driften rullar på ‘’golvet’’ och att mina medarbetare alltid har något att göra. </p></section>
-      </article>
+      </article> -->
     </main>
     <footer class="bottom">
       <!-- Länk till LinkedIn, GitHub, email, logga -->
@@ -58,6 +88,6 @@
       <a href="mailto:alicia.karlsson@chasacademy.com" class="bottom email"><img src="Bilder/emaillogo1.svg" alt="email-icon" id="email-icon"></a>
       <a href="https://www.linkedin.com/in/alicia-karlsson-48389a203/" target="_blank" class="bottom linkedin"><img src="Bilder/linkedinlogo.svg" alt="linkedin-icon" id="linkedin-icon"></a>
     </footer>
-    <script src="main.js"></script>
+    <script src="cv.js"></script>
 </body>
 </html>

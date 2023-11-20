@@ -1,0 +1,23 @@
+[{
+    "cv": "Alicia Karlsson",
+    "aboutMe": "Min inställning präglas av positivitet och en förmåga att snabbt ta till mig ny kunskap. Jag är välorganiserad och utför mitt arbete med noggrannhet och struktur. Att planera och utforska kreativa lösningar är något jag trivs med. Dessutom är jag lika bekväm med att arbeta självständigt som i grupp, och jag värdesätter samarbete som en nyckel till framgång.",
+    "education": {
+        "school": "Anderstorpsgymnasiet, Estetik och media"
+    },
+    "workExperience": [{
+        "workPlaceOne": "Snidex, Burträsk",
+        "taskOne": "Här fick jag städa och hjälpa till att sätta ihop fönster. Min första arbetsplats där jag fick lära mig hur man jobbar och agerar på en arbetsplats."
+    },
+    {   
+        "workPlaceTwo": "Leos Lekland, Skellefteå",
+        "taskTwo": "Här höll jag i barnkalas, lagade mat, stod i kassan, och serverade mat. Jag lärde mig att ta mer plats och interagera med kunder, samtidigt som jag lärde mig mycket i allmänhet då jag fick prova många roller."
+    },
+    {
+        "workPlaceThree": "Cherry Spelglädje, Skellefteå",
+        "taskThree": "Här var jag blackjackcroupier på Skellefteås krogar. Jag lärde mig hantera stressiga situationer, ta eget ansvar då man alltid jobbade själv, och hantera kunder vare sig de var glada eller arga."
+    },
+    {    
+        "workPlaceFour": "Biltema Sweden, Skellefteå",
+        "taskFour": "Här började jag som butiksmedarbetare, där jag stod mest i kundtjänst och hjälpte kunder, samt i bistron där jag serverade mat. Men i hösten -19 fick jag tjänsten som avdelningsansvarig där jag sköter och tar hand om min avdelning, ser till att jag har rätt mängd varor i hyllorna, samt ser till att driften rullar på ‘’golvet’’ och att mina medarbetare alltid har något att göra."
+    }]
+}]

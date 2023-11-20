@@ -9,7 +9,47 @@
   --primary-text-clr: rgb(122, 93, 61);
   --hf-clr: rgb(202, 190, 147);
   --nav-tog-clr: rgb(255, 255, 255);
-  --button-clr: rgb(203, 183, 124);
+  --button-clr: rgb(122, 93, 61);
+  --hover-clr: bisque;
+  --active-clr: rgb(133, 91, 62);
+  --other-clr: rgb(122, 93, 61, 0.7);
+}
+
+html[data-theme='light']{
+  --primary-bg-color:rgb(255, 251, 251);
+  --primary-text-clr: rgb(122, 93, 61);
+  --hf-clr: rgb(202, 190, 147);
+  --nav-tog-clr: rgb(255, 255, 255);
+ --button-clr: rgb(110, 77, 45);
+  --hover-clr: bisque;
+  --active-clr: rgb(133, 91, 62);
+  --other-clr: rgb(122, 93, 61, 0.7);
+}
+
+html[data-theme='dark'] {
+  --primary-bg-color:rgb(24, 22, 22);
+  --primary-text-clr: rgb(255, 250, 250);
+  --hf-clr: rgb(29, 27, 27);
+  --nav-tog-clr: rgb(255, 255, 255);
+  --button-clr: rgb(92, 90, 90); 
+  --hover-clr: rgb(122, 118, 113);
+  --active-clr: rgb(185, 184, 182);
+  --other-clr: rgba(104, 102, 101, 0.7);
+}
+
+[data-theme='dark'] .form-control {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-color: rgba(0, 0, 0, 0.6);
+    color: var(--text-color);
+}
+
+[data-theme='dark'] .form-control:focus {
+    color: var(--text-color);
+}
+
+[data-theme='light'] .d-block-light,
+[data-theme='dark'] .d-block-dark {
+    display: block;
 }
 
 body {
@@ -130,6 +170,17 @@ a {
   top: 0;
 }
 
+#theme-toggle{
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: white;
+  margin: 1rem;
+  margin-top: 1.9rem;
+  cursor: pointer;
+}
+
 .portfoliohead{
   padding-top: 9rem;
   text-align: center;
@@ -169,7 +220,7 @@ a {
 
 .modal-toggle{
   text-decoration: none;
-  color: var(--primary-text-clr);
+  color: var(--hf-clr);
   padding: 1rem 2rem;
   background-color: var(--button-clr);
   border-radius: 30px;
@@ -211,6 +262,12 @@ a {
   color: var(--primary-text-clr);
   font-weight: 800;
   text-decoration: none;
+}
+
+#githublink{
+  color: var(--primary-text-clr);
+  text-decoration: none;
+  font-weight: 700;
 }
 
 
