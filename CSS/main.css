@@ -290,6 +290,18 @@ a {
   background-position: center;
 }
 
+.card-five{
+  background-image: url('../Bilder/projekt5.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.card-six{
+  background-image: url('../Bilder/projekt6.png');
+  background-size: cover;
+  background-position: center;
+}
+
 .card p{
   background-color: var(--other-clr);
   color: white;
