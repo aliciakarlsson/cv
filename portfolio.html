@@ -39,75 +39,82 @@
         <section class="portfolio project1">
           <h2 class="head">Trafikljus</h2>
           <a href="Bilder/projekt1.png" target="_blank"><img class="projectimage" src="Bilder/projekt1.png" alt="Illustrerat trafikljus"></a>
-            <a href="#modal1" class="modal-toggle">Läs här om projektet</a>
+          <!--Här kommer lånad kod för modal, länk i JS-filen, endast tillagt innehåll i modalen, gäller modalerna i alla projektkort på denna sidan.-->
+            <button class="trigger" data-modal="modal1">Läs här om projektet</button>
             <div id="modal1" class="modal">
-              <div class="modal-content">
-                <a href="#" class="modal-close">&#10005;</a>
-                  <h6>Trafikljus</h6>
-                  <p>Här övade vi Flexbox och följde en design.</p>
-              </div>
+                <div class="modal-content">
+                    <span class="close-button">×</span>
+                    <!--Detta är vad jag lagt till-->
+                    <h6 class="modal-head">Trafikljus</h6>
+                    <p class="modal-text">Här övade vi Flexbox och följde en designskiss.</p>
+                </div>
             </div>
         </section>
         <section class="portfolio project2">
           <h3 class="head">Meny Chas Academy</h3>
           <a href="Bilder/projekt2.png" target="_blank"><img class="projectimage" src="Bilder/projekt2.png" alt="Meny till Chas i ljusgrå"></a>
-          <a href="#modal2" class="modal-toggle">Läs här om projektet</a>
+            <button class="trigger" data-modal="modal2">Läs här om projektet</button>
             <div id="modal2" class="modal">
-              <div class="modal-content">
-                <a href="#" class="modal-close">&#10005;</a>
-                  <h6>Meny Chas Academy</h6>
-                  <p>Här följde vi en designskiss och lärde oss hur man kan göra en meny.</p>
-              </div>
+                <div class="modal-content">
+                    <span class="close-button">×</span>
+                    <!--Detta är vad jag lagt till-->
+                    <h6 class="modal-head">Meny Chas Academy</h6>
+                    <p class="modal-text">Här övade vi att bygga meny med Flexbox.</p>
+                </div>
             </div>
         </section>
         <section class="portfolio project3">
           <h4 class="head">Profilkort</h4>
           <a href="Bilder/projekt3.png" target="_blank"><img class="projectimage" src="Bilder/projekt3.png" alt="Ett vitt kort med info om person"></a>
-          <a href="#modal3" class="modal-toggle">Läs här om projektet</a>
+           <button class="trigger" data-modal="modal3">Läs här om projektet</button>
             <div id="modal3" class="modal">
-              <div class="modal-content">
-                <a href="#" class="modal-close">&#10005;</a>
-                  <h6>Profilkort</h6>
-                  <p>Här övade vi Flexbox och olika placeringar samt följde design.</p>
-              </div>
+                <div class="modal-content">
+                    <span class="close-button">×</span>
+                    <!--Detta är vad jag lagt till-->
+                    <h6 class="modal-head">Profilkort</h6>
+                    <p class="modal-text">Övning i CSS</p>
+                </div>
             </div>
         </section>
         <section class="portfolio project4">
           <h5 class="head">Färgschema</h5>
           <a href="Bilder/projekt4.png" target="_blank"><img class="projectimage" src="Bilder/projekt4.png" alt="En bild på en exempelhemsida i pastellfärger"></a>
-          <a href="#modal4" class="modal-toggle">Läs här om projektet</a>
+           <button class="trigger" data-modal="modal4">Läs här om projektet</button>
             <div id="modal4" class="modal">
-              <div class="modal-content">
-                <a href="#" class="modal-close">&#10005;</a>
-                  <h6>Färgschema</h6>
-                  <p>Här testade vi hur olika färger passade tillsammans och att lägga in bilder som bakgrund.</p>
-              </div>
+                <div class="modal-content">
+                    <span class="close-button">×</span>
+                    <!--Detta är vad jag lagt till-->
+                    <h6 class="modal-head">Färgschema</h6>
+                    <p class="modal-text">Övning i CSS-layout</p>
+                </div>
             </div>
         </section>
         <section class="portfolio project5">
           <h2 class="head">Gissa Talet</h2>
           <a href="https://aliciakarlsson.github.io/gissatalet/" target="_blank"><img class="projectimage" src="Bilder/projekt5.png" alt="Gissa talet-spel"></a>
-            <a href="#modal5" class="modal-toggle">Läs här om projektet</a>
+           <button class="trigger" data-modal="modal5">Läs här om projektet</button>
             <div id="modal5" class="modal">
-              <div class="modal-content">
-                <a href="#" class="modal-close">&#10005;</a>
-                  <h6>Gissa talet</h6>
-                  <p>Ett spel där du gissar talet från 0-100</p>
-                  <a id="githublink" href="https://github.com/aliciakarlsson/gissatalet.git">Klicka här så kommer du till GitHub</a>
-              </div>
+                <div class="modal-content">
+                    <span class="close-button">×</span>
+                    <!--Detta är vad jag lagt till-->
+                    <h6 class="modal-head">Gissa Talet</h6>
+                    <p class="modal-text">Ett spel där man gissar talet från 0-100</p>
+                    <a class="github-link" target="_blank" href="https://github.com/aliciakarlsson/gissatalet.git">Länk till GitHub-repo</a>
+                </div>
             </div>
         </section>
         <section class="portfolio project6">
-          <h2 class="head">Sten sax påse</h2>
+          <h2 class="head">Sten Sax Påse</h2>
           <a href="https://aliciakarlsson.github.io/rockpaperscissors/" target="_blank"><img class="projectimage" src="Bilder/projekt6.png" alt="Rock paper scissor-spel"></a>
-            <a href="#modal6" class="modal-toggle">Läs här om projektet</a>
+           <button class="trigger" data-modal="modal6">Läs här om projektet</button>
             <div id="modal6" class="modal">
-              <div class="modal-content">
-                <a href="#" class="modal-close">&#10005;</a>
-                  <h6>Sten sax påse</h6>
-                  <p>Ett spel där du möter datorn i sten sax påse.</p>
-                  <a id="githublink" href="https://github.com/aliciakarlsson/rockpaperscissors.git">Klicka här så kommer du till GitHub</a>
-              </div>
+                <div class="modal-content">
+                    <span class="close-button">×</span>
+                    <!--Detta är vad jag lagt till-->
+                    <h6 class="modal-head">Sten Sax Påse</h6>
+                    <p class="modal-text">Ett spel där du möter datorn i sten sax påse.</p>
+                    <a class="github-link" target="_blank" href="https://github.com/aliciakarlsson/rockpaperscissors.git">Länk till GitHub-repo</a>
+                </div>
             </div>
         </section>
       </article>
@@ -119,6 +126,7 @@
       <a href="mailto:alicia.karlsson@chasacademy.com" class="bottom email"><img src="Bilder/emaillogo1.svg" alt="email-icon" id="email-icon"></a>
       <a href="https://www.linkedin.com/in/alicia-karlsson-48389a203/" target="_blank" class="bottom linkedin"><img src="Bilder/linkedinlogo.svg" alt="linkedin-icon" id="linkedin-icon"></a>
     </footer>
-    <script src="portfolio.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/darktheme.js" ></script>
 </body>
 </html>

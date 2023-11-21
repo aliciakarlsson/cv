@@ -207,7 +207,7 @@ a {
 .projectimage{
   width: 40vw;
   border: 4px solid var(--primary-text-clr);
-  margin: 2rem;
+  margin: 4rem;
 }
 
 .portfolio{
@@ -218,54 +218,88 @@ a {
   padding-bottom: 4rem;
 }
 
-.modal-toggle{
-  text-decoration: none;
-  color: var(--hf-clr);
-  padding: 1rem 2rem;
-  background-color: var(--button-clr);
-  border-radius: 30px;
+/*LÅNAD KOD, länk i javascript, inget ändrat förutom styling (fontsize, färger och typsnitt)*/
+.trigger{
+    text-align: center;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    background: var(--button-clr);
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    font-family: "Poppins", sans-serif;
 }
 
-.modal h6{
-  font-size: 1.25rem;
-  padding-bottom: 1rem;
+/* Kod jag tillagt */
+.trigger:hover{
+  cursor: pointer;
+  background-color: var(--other-clr);
+
 }
+
+/*Här slutar min tillagda kod*/ 
 
 .modal {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
 }
-
-.modal:target {
-  display: block;
-}
-
 .modal-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: var(--primary-bg-color);
-  padding: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--primary-bg-color);
+    font-family: "Poppins", sans-serif;
+    padding: 1rem 1.5rem;
+    width: 24rem;
+    border-radius: 0.5rem;
+}
+.close-button {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+}
+.close-button:hover {
+    background-color: darkgray;
+}
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
 
-.modal-close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  cursor: pointer;
-  color: var(--primary-text-clr);
-  font-weight: 800;
-  text-decoration: none;
+/* Här slutar lånade koden */
+
+.modal-head, .modal-text{
+color: var(--primary-text-clr);
 }
 
-#githublink{
-  color: var(--primary-text-clr);
+.modal-head{
+  font-size: 1.3rem;
+  margin: 1rem;
+}
+
+.modal-text{
+  font-size: 1rem;
+  margin: 1rem .5rem;
+}
+
+.github-link{
+  color: var(--other-clr);
   text-decoration: none;
   font-weight: 700;
 }
