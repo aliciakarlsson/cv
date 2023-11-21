@@ -1,3 +1,4 @@
+//Funktionen som hämtar datan från json
 async function getData() {
   const jsonResponse = await fetch("cv.json");
 
