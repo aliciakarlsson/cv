@@ -1,4 +1,4 @@
-# cv
+# CV Alicia Karlsson
 
 Detta är mitt digitala CV skapat med enbart HTML och CSS. Varje sida har sin egen html-fil och en egen css-fil som är lagda i olika mappar för enkel navigering bland filer. 
 
@@ -14,4 +14,6 @@ Detta är mitt digitala CV skapat med enbart HTML och CSS. Varje sida har sin eg
 
 ## Användning
 
-- Varje sida har sin egen HTML-fil, så navigera till respektive fil för att se innehållet.
+- Varje sida har sin egen HTML-fil, så navigera till respektive fil för att se innehållet eller klicka på länken nedan:
+
+https://aliciakarlsson.github.io/cv
