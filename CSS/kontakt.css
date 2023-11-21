@@ -13,6 +13,7 @@
   --hover-clr: bisque;
   --active-clr: rgb(133, 91, 62);
   --other-clr: rgb(122, 93, 61, 0.7);
+  --textbox-clr: rgb(199, 181, 138);
 }
 
 html[data-theme='light']{
@@ -24,6 +25,7 @@ html[data-theme='light']{
   --hover-clr: bisque;
   --active-clr: rgb(133, 91, 62);
   --other-clr: rgb(122, 93, 61, 0.7);
+  --textbox-clr: rgb(199, 181, 138);
 }
 
 html[data-theme='dark'] {
@@ -35,6 +37,7 @@ html[data-theme='dark'] {
   --hover-clr: rgb(122, 118, 113);
   --active-clr: rgb(185, 184, 182);
   --other-clr: rgba(104, 102, 101, 0.7);
+  --textbox-clr: rgb(82, 79, 79);
 }
 
 [data-theme='dark'] .form-control {
@@ -237,7 +240,7 @@ p{
   margin-bottom: 1rem;
   border-radius: 10px;
   height: 5vh;
-  background-color: var(--hf-clr);
+  background-color: var(--textbox-clr);
   color: var(--text-color);
 }
 
@@ -246,7 +249,7 @@ p{
   margin-bottom: 1rem;
   border-radius: 10px;
   height: 5vh;
-  background-color: var(--hf-clr);
+  background-color: var(--textbox-clr);
   color: var(--text-color);
 }
 
@@ -254,7 +257,7 @@ p{
   border:none;
   margin-bottom: 1rem;
   border-radius: 10px;
-  background-color: var(--hf-clr);
+  background-color: var(--textbox-clr);
   color: var(--text-color);
 }
 
