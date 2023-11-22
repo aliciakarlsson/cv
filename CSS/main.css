@@ -247,7 +247,7 @@ a {
   color: var(--primary-text-clr);
 }
 
-.project-article{
+.project-container{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -376,5 +376,9 @@ a {
   .profile-pic{
     padding: 2rem;
     background-position: left;
+  }
+
+  .card{
+    margin: 1rem;
   }
 }
