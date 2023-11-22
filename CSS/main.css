@@ -208,14 +208,14 @@ a {
 
 .profile-pic{
   flex:1;
-  background-image: url('../Bilder/profilbild1.jpeg');
+  background-image: url('../Bilder/profilbild1.webp');
   background-size: cover; 
 
 }
 
 .profile-link{ 
     flex: 1;
-    background-image: url('../Bilder/skelleftea.jpg');
+    background-image: url('../Bilder/skelleftea.webp');
     background-size: cover;
     /* background-position: center; */
     background-color: var(--other-clr);
@@ -268,36 +268,36 @@ a {
 }
 
 .card-one{
-  background-image: url('../Bilder/projekt1.png');
+  background-image: url('../Bilder/projekt1.webp');
   background-size: cover;
   background-position: center;
 }
 
 .card-two{
-  background-image: url('../Bilder/projekt2.png');
+  background-image: url('../Bilder/projekt2.webp');
   background-size: cover;
 }
 
 .card-three{
-  background-image: url('../Bilder/projekt3.png');
+  background-image: url('../Bilder/projekt3.webp');
   background-size: cover;
   background-position: center;
 }
 
 .card-four{
-  background-image: url('../Bilder/projekt4.png');
+  background-image: url('../Bilder/projekt4.webp');
   background-size: cover;
   background-position: center;
 }
 
 .card-five{
-  background-image: url('../Bilder/projekt5.png');
+  background-image: url('../Bilder/projekt5.webp');
   background-size: cover;
   background-position: center;
 }
 
 .card-six{
-  background-image: url('../Bilder/projekt6.png');
+  background-image: url('../Bilder/projekt6.webp');
   background-size: cover;
   background-position: center;
 }
