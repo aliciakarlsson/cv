@@ -1,6 +1,6 @@
 //Funktionen som hämtar datan från json
 async function getData() {
-  const jsonResponse = await fetch("cv.json");
+  const jsonResponse = await fetch("./data/cv.json");
 
   if (jsonResponse.ok) {
     const json = await jsonResponse.json();
