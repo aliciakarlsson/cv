@@ -84,15 +84,15 @@ a {
 }
 
 .nav-bar ul a:hover {
-  color: bisque;
+  color: var(--hover-clr);
 }
 
 .nav-bar ul a:active{
-  color: bisque;
+  color: var(--hover-clr);
 }
 
 .nav-bar ul .active{
-  color: rgb(133, 91, 62);
+  color: var(--active-clr);
 }
 
 .nav-bar .logo {
