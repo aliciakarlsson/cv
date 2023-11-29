@@ -14,6 +14,7 @@ Detta är mitt digitala CV skapat med enbart HTML och CSS. Varje sida har sin eg
 
 ## Användning
 
-- Varje sida har sin egen HTML-fil, så navigera till respektive fil för att se innehållet eller klicka på länken nedan:
+- Varje sida har sin egen HTML-fil, navigera till respektive fil för att se innehållet eller klicka på länken nedan:
+- Webbsidan har ljust- och mörktläge, klicka på ikonen uppe till vänster för att byta.
 
 https://aliciakarlsson.github.io/cv
