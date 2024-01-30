@@ -43,3 +43,12 @@ toggle.onclick = function () {
   document.documentElement.setAttribute("data-theme", targetTheme);
   localStorage.setItem("theme", targetTheme);
 };
+
+
+toggle.addEventListener('click', function(){
+      gtag("event", "dark_mode", {
+        event_category: "Knappar",
+        event_label: "dark-knapp",
+      });
+    
+})
