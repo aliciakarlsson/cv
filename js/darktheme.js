@@ -42,13 +42,9 @@ toggle.onclick = function () {
   //Sätter temat till DOMens attribut och sparar det
   document.documentElement.setAttribute("data-theme", targetTheme);
   localStorage.setItem("theme", targetTheme);
+
+  gtag("event", "dark_mode", {
+    event_category: "Knappar",
+    event_label: "dark-knapp",
+  });
 };
-
-
-toggle.addEventListener('click', function(){
-      gtag("event", "dark_mode", {
-        event_category: "Knappar",
-        event_label: "dark-knapp",
-      });
-    
-})
